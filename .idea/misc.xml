@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rezak/Desktop/Neumorphismoriginal/app/src/main/res/drawable/ic_account.xml" value="0.148" />
+        <entry key="..\:/Users/rezak/Desktop/Neumorphismoriginal/app/src/main/res/drawable/ic_battery.xml" value="0.148" />
+        <entry key="..\:/Users/rezak/Desktop/Neumorphismoriginal/app/src/main/res/drawable/ic_dry.xml" value="0.148" />
+        <entry key="..\:/Users/rezak/Desktop/Neumorphismoriginal/app/src/main/res/drawable/ic_lock.xml" value="0.148" />
+        <entry key="..\:/Users/rezak/Desktop/Neumorphismoriginal/app/src/main/res/drawable/ic_program.xml" value="0.148" />
+        <entry key="..\:/Users/rezak/Desktop/Neumorphismoriginal/app/src/main/res/drawable/ic_range.xml" value="0.148" />
+        <entry key="..\:/Users/rezak/Desktop/Neumorphismoriginal/app/src/main/res/drawable/ic_setting.xml" value="0.148" />
+        <entry key="..\:/Users/rezak/Desktop/Neumorphismoriginal/app/src/main/res/drawable/ic_statics.xml" value="0.148" />
+        <entry key="..\:/Users/rezak/Desktop/Neumorphismoriginal/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/rezak/Desktop/Neumorphismoriginal/app/src/main/res/layout/activity_main2.xml" value="0.28968713789107764" />
+        <entry key="..\:/Users/rezak/Desktop/Neumorphismoriginal/app/src/main/res/layout/item_card_scrool.xml" value="0.536" />
+        <entry key="..\:/Users/rezak/Desktop/original_Android_projects/Neumorphismoriginal/app/src/main/res/layout/activity_main.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/rezak/Desktop/original_Android_projects/Neumorphismoriginal/app/src/main/res/layout/activity_main2.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/rezak/Desktop/original_Android_projects/Neumorphismoriginal/app/src/main/res/layout/item_card_scrool.xml" value="0.20863616930312098" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neu_background"
+    android:clipToPadding="false"
+    tools:context=".MainActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_tesla_photography" />
+
+        <soup.neumorphism.NeumorphImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:padding="16dp"
+            android:src="@drawable/ic_statics"
+            app:neumorph_shadowColorDark="@color/neu_shadow_Dark"
+            app:neumorph_shadowColorLight="@color/neu_shadow_light"
+            app:neumorph_shadowElevation="4dp"
+            app:neumorph_shapeType="pressed" />
+
+        <soup.neumorphism.NeumorphImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_gravity="end"
+            android:padding="16dp"
+            android:src="@drawable/ic_setting"
+            app:neumorph_shadowColorDark="@color/neu_shadow_Dark"
+            app:neumorph_shadowColorLight="@color/neu_shadow_light"
+            app:neumorph_shadowElevation="4dp"
+            app:neumorph_shapeType="pressed" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coordinatorLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cybertruck"
+            android:textColor="@color/text_white"
+            android:textSize="60sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="BatteryRemaining         "
+                android:textColor="@color/text_gray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Up to 4 hours"
+
+                android:textColor="@color/text_white"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="35sp"
+                android:text="Distance Remaining  "
+                android:textColor="@color/text_gray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Up to 130 kilometers"
+
+                android:textColor="@color/text_white"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="39dp" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_tesla1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/gotoactivity2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:neumorph_shadowColorDark="@color/neu_shadow_Dark"
+        app:neumorph_shadowColorLight="@color/neu_shadow_light"
+        app:neumorph_shadowElevation="4dp"
+        app:neumorph_shapeType="flat">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+            <ImageView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_lock" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="tap to the open the car"
+                android:textColor="@color/text_white"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
